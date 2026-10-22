@@ -206,7 +206,7 @@
           id: 'cricket',
           title: 'CRICKET TURF',
           subtitle: 'Practice nets & box cricket',
-          image: 'https://images.unsplash.com/photo-1531415074868-83633dd5e457?auto=format&fit=crop&w=800&q=80',
+          image: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=800&q=80',
         },
         {
           id: 'volleyball',
@@ -218,7 +218,7 @@
 
       const galleryPhotos = [
         { id: 1, title: 'Floodlit Night Turf', url: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=800&q=80' },
-        { id: 2, title: 'Cricket Box & Wickets', url: 'https://images.unsplash.com/photo-1531415074868-83633dd5e457?auto=format&fit=crop&w=800&q=80' },
+        { id: 2, title: 'Cricket Box & Wickets', url: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=800&q=80' },
         { id: 3, title: 'Multi-Sport Court', url: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=800&q=80' },
         { id: 4, title: 'Player Lounge & Seating', url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80' },
         { id: 5, title: 'Refreshment Bar & Reception', url: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80' },
@@ -667,6 +667,10 @@
                       <img
                         src={img.url}
                         alt={img.title}
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80';
+                        }}
                         className="w-full h-full object-cover group-hover/item:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity flex items-end p-4">

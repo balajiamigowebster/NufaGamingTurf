@@ -13,7 +13,7 @@ export default function Facilities({ onSelectFacility, onOpenVirtualTour }) {
       id: 'cricket',
       title: 'CRICKET TURF',
       subtitle: 'Practice nets & box cricket',
-      image: 'https://images.unsplash.com/photo-1531415074868-83633dd5e457?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: 'volleyball',

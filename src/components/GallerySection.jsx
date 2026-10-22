@@ -13,7 +13,7 @@ export default function GallerySection({ onOpenLightbox }) {
     {
       id: 2,
       title: 'Cricket Box Pitch & Nets',
-      url: 'https://images.unsplash.com/photo-1531415074868-83633dd5e457?auto=format&fit=crop&w=1000&q=80',
+      url: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=1000&q=80',
     },
     {
       id: 3,
@@ -107,6 +107,10 @@ export default function GallerySection({ onOpenLightbox }) {
                 <img
                   src={img.url}
                   alt={img.title}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80';
+                  }}
                   className="w-full h-full object-cover group-hover/item:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 flex items-end p-4">
