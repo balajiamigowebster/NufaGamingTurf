@@ -6,6 +6,16 @@ export default function GallerySection({ onOpenLightbox }) {
 
   const galleryImages = [
     {
+      id: 'custom-football-night',
+      title: 'Football Night Turf',
+      url: '/gallery-football-night.jpg',
+    },
+    {
+      id: 'custom-cricket-night',
+      title: 'Cricket Box & Pitch',
+      url: '/gallery-cricket-night.jpg',
+    },
+    {
       id: 1,
       title: 'Floodlit Night Pitch',
       url: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=1000&q=80',

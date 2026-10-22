@@ -59,6 +59,18 @@ export const turfData = {
   ],
   gallery: [
     {
+      id: 'custom-1',
+      title: 'Football Night Turf',
+      url: '/gallery-football-night.jpg',
+      category: 'Football'
+    },
+    {
+      id: 'custom-2',
+      title: 'Cricket Box & Pitch',
+      url: '/gallery-cricket-night.jpg',
+      category: 'Cricket'
+    },
+    {
       id: 1,
       title: 'Floodlit Night Turf',
       url: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=800&q=80',
