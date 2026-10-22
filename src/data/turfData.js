@@ -28,7 +28,7 @@ export const turfData = {
       id: 'football-turf',
       title: 'FOOTBALL TURF',
       subtitle: 'Full-size turf for 5-a-side, 7-a-side & corporate matches',
-      image: 'https://images.unsplash.com/photo-1529900748604-07564a03e7a6?auto=format&fit=crop&w=800&q=80',
+      image: '/football-turf.jpg',
       badge: '5-a-side & 7-a-side',
       description: 'FIFA certified high-density synthetic grass turf with shock absorption underlay. Perfect for casual evening games, corporate tournaments, and youth coaching.'
     },
