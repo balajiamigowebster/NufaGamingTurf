@@ -17,7 +17,7 @@ export default function Hero({ onBookClick, onViewGallery }) {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 transform filter brightness-75 contrast-125"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=2000&q=85')`,
+            backgroundImage: `url('/banner.jpg')`,
           }}
         />
 
