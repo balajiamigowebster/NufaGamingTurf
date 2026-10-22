@@ -44,7 +44,7 @@ export const turfData = {
       id: 'volleyball-court',
       title: 'VOLLEYBALL COURT',
       subtitle: 'Professional setup with quality flooring',
-      image: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=800&q=80',
+      image: '/Floodlit Turf Arena Showdown.png',
       badge: 'Pro Standards',
       description: 'Olympic regulation height netting with anti-skid shock absorbing sports flooring. Ideal for competitive volleyball matches and recreational group spikes.'
     },

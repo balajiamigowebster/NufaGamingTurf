@@ -19,7 +19,7 @@ export default function Facilities({ onSelectFacility, onOpenVirtualTour }) {
       id: 'volleyball',
       title: 'VOLLEYBALL COURT',
       subtitle: 'Professional setup with quality flooring',
-      image: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=800&q=80',
+      image: '/Floodlit Turf Arena Showdown.png',
     },
   ]
 
