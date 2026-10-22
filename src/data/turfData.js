@@ -36,7 +36,7 @@ export const turfData = {
       id: 'cricket-turf',
       title: 'CRICKET TURF',
       subtitle: 'Practice nets & box cricket',
-      image: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=800&q=80',
+      image: '/Night Match at Turf Cricket Arena.png',
       badge: 'Box Cricket & Nets',
       description: 'Specially engineered high-bounce artificial wicket, enclosed high safety nets, professional bowling machine compatibility, and red/white ball friendly turf.'
     },
