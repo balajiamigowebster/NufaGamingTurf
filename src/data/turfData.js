@@ -77,16 +77,16 @@ export const turfData = {
       category: 'Turf'
     },
     {
-      id: 2,
-      title: 'Cricket Box & Pitch',
-      url: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=800&q=80',
+      id: 'arena-cricket',
+      title: 'Night Match at Turf Cricket Arena',
+      url: '/Night Match at Turf Cricket Arena.png',
       category: 'Cricket'
     },
     {
-      id: 3,
-      title: 'Multi-sport Court Area',
-      url: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=800&q=80',
-      category: 'Volleyball'
+      id: 'arena-showdown',
+      title: 'Floodlit Turf Arena Showdown',
+      url: '/Floodlit Turf Arena Showdown.png',
+      category: 'Turf'
     }
   ]
 }

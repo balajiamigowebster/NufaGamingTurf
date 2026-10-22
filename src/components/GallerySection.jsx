@@ -21,14 +21,14 @@ export default function GallerySection({ onOpenLightbox }) {
       url: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=1000&q=80',
     },
     {
-      id: 2,
-      title: 'Cricket Box Pitch & Nets',
-      url: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=1000&q=80',
+      id: 'arena-cricket',
+      title: 'Night Match at Turf Cricket Arena',
+      url: '/Night Match at Turf Cricket Arena.png',
     },
     {
-      id: 3,
-      title: 'Volleyball & Multi-Sport Setup',
-      url: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1000&q=80',
+      id: 'arena-showdown',
+      title: 'Floodlit Turf Arena Showdown',
+      url: '/Floodlit Turf Arena Showdown.png',
     },
   ]
 
