@@ -30,21 +30,6 @@ export default function GallerySection({ onOpenLightbox }) {
       title: 'Volleyball & Multi-Sport Setup',
       url: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1000&q=80',
     },
-    {
-      id: 4,
-      title: 'Player Lounge & Seating',
-      url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80',
-    },
-    {
-      id: 5,
-      title: 'Reception & Refreshment Area',
-      url: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80',
-    },
-    {
-      id: 6,
-      title: 'Evening Turf Match',
-      url: 'https://images.unsplash.com/photo-1529900748604-07564a03e7a6?auto=format&fit=crop&w=1000&q=80',
-    },
   ]
 
   const handleScroll = (direction) => {
